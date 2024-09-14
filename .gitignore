@@ -50,12 +50,6 @@ cover/
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
 # Flask stuff:
 instance/
 .webassets-cache
@@ -63,25 +57,16 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/
 ipython_config.py
 .pdm.toml
 __pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -91,28 +76,15 @@ celerybeat.pid
 .myenv
 env/
 myenv
-venv_2/
 ENV/
 env.bak/
-venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
 /site
 
 # mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
-.pyre/
 
 # pytype static type analyzer
 .pytype/
@@ -121,9 +93,6 @@ dmypy.json
 cython_debug/
 
 poetry.toml
-
-# ruff
-.ruff_cache/
 
 # LSP config files
 pyrightconfig.json
